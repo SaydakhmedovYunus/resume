@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .main_wrapper {
@@ -10,6 +10,7 @@
     padding: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     background: linear-gradient(to bottom, #4553ee, #ec1ce2);
     gap: calc(6.9vw + 3.5px);
