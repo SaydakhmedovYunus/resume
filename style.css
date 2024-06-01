@@ -16,7 +16,6 @@
 }
 
 .left_side {
-    width: calc(22.9vw + 264px);
     padding: 20px;
     display: flex;
     flex-direction: column;
