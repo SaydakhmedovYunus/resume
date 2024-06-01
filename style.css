@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+.main_wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, #4553ee, #ec1ce2);
+    gap: calc(6.9vw + 3.5px);
+}
+
+.left_side {
+    width: calc(22.9vw + 264px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main_face {
+    width: calc(22.8vw + 223px);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.face_side {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+
+    img {
+        border-radius: 20px 0 20px 0;
+        width: 200px;
+        height: 180px;
+        color: transparent;
+    }
+}
+
+.about_me {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+    h1 {
+        font-family: "Dancing Script", cursive;
+        font-weight:lighter;
+        color:black;
+        background: radial-gradient(circle, rgba(198, 198, 198, 0.8) 0%, transparent 60%); /* Градиент с прозрачным центром */
+    }
+
+    h2 {
+        font-family: "Dancing Script", cursive;
+        font-weight: bold;
+        color: black;
+        background: radial-gradient(circle, rgba(198, 198, 198, 0.8) 0%, transparent 60%); /* Градиент с прозрачным центром */
+    }
+}
+
+.my_contact {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .socials {
+        padding: 10px;
+        background: radial-gradient(circle, rgba(198, 198, 198, 0.8) 0%, transparent 60%); /* Градиент с прозрачным центром */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-radius: 20px;
+
+        img {
+            color: transparent;
+            width: 20px;
+            height: 20px;
+        }
+
+        a {
+            background-color: transparent;
+            font-size: 18px;
+            font-family: "Dancing Script", cursive;
+            font-weight: bold;
+            text-decoration: none;
+            color:black;
+            width: 100%;
+        }
+    }
+
+}
+.list_of_skills {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+
+
+    li {
+        font-family: "Dancing Script", cursive;
+        font-weight: bold;
+        list-style:none;
+        border-bottom: 1px solid black;
+        background: radial-gradient(circle, rgba(126, 126, 126, 0.8) 0%, transparent 60%); /* Градиент с прозрачным центром */
+    }
+}
+
+.right_side {
+    width: calc(22.9vw + 264px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logos {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
