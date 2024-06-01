@@ -13,6 +13,7 @@
     justify-content: center;
     flex-wrap: wrap;
     background: linear-gradient(to bottom, #4553ee, #ec1ce2);
+    background-size: contain;
     gap: calc(6.9vw + 3.5px);
 }
 
