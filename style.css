@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    background: linear-gradient(to bottom, #4553ee, #ec1ce2);
+    background: linear-gradient(to bottom, #7b7c81, #c2a4a4);
     background-size: contain;
     gap: calc(6.9vw + 3.5px);
 }
@@ -26,7 +26,6 @@
 
 .main_face {
     width: calc(22.8vw + 223px);
-    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -39,10 +38,10 @@
     flex-direction: row;
 
     img {
-        border-radius: 20px 0 20px 0;
+        border-radius: 20px;
         width: 200px;
         height: 180px;
-        color: transparent;
+        background-color: transparent;
     }
 }
 
@@ -54,14 +53,14 @@
     
 
     h1 {
-        font-family: "Dancing Script", cursive;
+        font-family: "Noto Sans", sans-serif;
         font-weight:lighter;
         color:black;
         background: radial-gradient(circle, rgba(198, 198, 198, 0.8) 0%, transparent 60%); /* Градиент с прозрачным центром */
     }
 
     h2 {
-        font-family: "Dancing Script", cursive;
+        font-family: "Noto Sans", sans-serif;
         font-weight: bold;
         color: black;
         background: radial-gradient(circle, rgba(198, 198, 198, 0.8) 0%, transparent 60%); /* Градиент с прозрачным центром */
@@ -69,7 +68,6 @@
 }
 
 .my_contact {
-    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -91,7 +89,7 @@
         a {
             background-color: transparent;
             font-size: 18px;
-            font-family: "Dancing Script", cursive;
+            font-family: "Noto Sans", sans-serif;
             font-weight: bold;
             text-decoration: none;
             color:black;
@@ -107,11 +105,11 @@
     gap: 10px;
     border-bottom: 1px solid black;
     font-weight: bold;
-    font-family: "Dancing Script", cursive;
+    font-family: "Noto Sans", sans-serif;
 
 
     li {
-        font-family: "Dancing Script", cursive;
+        font-family: "Noto Sans", sans-serif;
         font-weight: bold;
         list-style:none;
         border-bottom: 1px solid black;
